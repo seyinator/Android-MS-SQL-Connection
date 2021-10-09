@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String ip = "178.238.123.78", port = "1433", db = "EMIR_DB", username = "sa", password = "Tar:01012017";
+                String ip = "YOUR IP", port = "1433", db = "YOUR DATABASE", username = "YOUR USERNAME", password = "YOUR PASSWORD";
                 String connectURL = null;
                 try {
 
