@@ -17,7 +17,7 @@ public class SQLConnection {
 
     @SuppressLint("NewApi")
     public Connection conclass() {
-        String ip = "178.238.123.78", port = "1433", db = "EMIR_DB", username = "sa", password = "Tar:01012017";
+        String ip = "YOUR IP", port = "1433", db = "YOUR DATABASE", username = "YOUR USERNAME", password = "YOUR PASSWORD";
         StrictMode.ThreadPolicy a = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(a);
         String connectURL = null;
